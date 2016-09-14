@@ -62,7 +62,7 @@ Formatting 'centos-6.5.qcow2', fmt=qcow2 size=10737418240 encryption=off cluster
 
 #### 8、创建一个虚拟机
 ```
-virt-install --virt-type kvm --name centos-6.6 --ram 1024 \
+virt-install --virt-type kvm --name centos-6.5 --ram 1024 \
 --cdrom=CentOS-6.5-x86_64-minimal.iso \
 --disk centos-6.5.qcow2 \
 --network network=default \
